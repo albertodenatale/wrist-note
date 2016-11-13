@@ -4,6 +4,6 @@
 
 Stop taking note on your wrist! 
 
-This project aims to provide wrist users with a light and quick to use note-taking app. Long term objectives include having this app ready to export notes to other more robust note-taking apps (such as OneNote), plus creating a REST webservice able to track sessions and keep data live.
+This project aims to provide wrist users with a light and quick to use note-taking app. Long-term objectives include having this app ready to export notes to other more robust note-taking apps (such as OneNote), plus creating a REST web service able to track sessions and keep data live.
 
 This project uses Apache Cordova and jQuery.
