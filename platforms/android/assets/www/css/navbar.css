@@ -1,0 +1,8 @@
+nav{
+    position:absolute !important;
+    bottom: 20px;
+}
+
+nav .btn{
+    margin-left: 25px;
+}
