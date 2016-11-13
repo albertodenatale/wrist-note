@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap-toggle-master/css/bootstrap-toggle.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Wrist Note</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1 class="col-xs-12">Wrist Note</h1>
+            <div class="main">
+                <div class="form-group col-xs-12">
+                    <div class="row">
+                        <input type="text" placeholder="Name, Idea, Postcode" class="input-lg person name form-control"/>
+                    </div>
+                    <div class="row">
+						<input id="toggle" type="checkbox" data-on="Auto" data-off="Manual" data-onstyle="success" data-toggle="toggle"/>
+                    </div>
+                    <div class="row">
+						<input class="btn btn-default addContact" type="submit" value="Add"/>
+                    </div>
+                </div>
+            </div>
+			<div class="list col-xs-12">
+<!-- 				<div class="person occurrence">
+					<legend>Name and Surname and position</legend>
+				</div> -->
+			</div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="lib/jquery/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="lib/bootstrap-toggle-master/js/bootstrap-toggle.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
